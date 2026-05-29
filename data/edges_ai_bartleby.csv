@@ -1,0 +1,31 @@
+source,target,tie_type,sub_type,direction,strength,confidence
+Bartleby,Narrator,friendship,close_friend,directed,weak,high
+Bartleby,Narrator,professional,employer_employee,mutual,strong,high
+Bartleby,Narrator,adversarial,institutional_pressure,mutual,moderate,high
+John Jacob Astor,Narrator,professional,client_service,mutual,moderate,high
+Narrator,Turkey,professional,employer_employee,mutual,moderate,high
+Narrator,Nippers,professional,employer_employee,mutual,strong,high
+Ginger Nut,Narrator,professional,employer_employee,mutual,strong,high
+Cleaning Woman,Narrator,professional,servant_employer,mutual,moderate,high
+Landlord,Narrator,professional,client_service,mutual,weak,high
+Grub Man,Narrator,professional,client_service,mutual,weak,high
+Lawyer Tenant,Narrator,professional,institutional,mutual,weak,medium
+Ginger Nut's Father,Narrator,professional,client_service,mutual,weak,medium
+Bartleby,Turkey,professional,colleagues,mutual,weak,high
+Bartleby,Nippers,professional,colleagues,mutual,weak,high
+Bartleby,Ginger Nut,professional,colleagues,mutual,moderate,high
+Bartleby,Grub Man,professional,client_service,mutual,weak,high
+Nippers,Turkey,friendship,acquaintance,mutual,moderate,high
+Nippers,Turkey,professional,colleagues,mutual,moderate,high
+Ginger Nut,Turkey,professional,colleagues,mutual,moderate,high
+Bartleby,Turkey,adversarial,enemies,directed,moderate,high
+Ginger Nut,Nippers,professional,colleagues,mutual,moderate,high
+Dun,Nippers,professional,client_service,mutual,weak,high
+Bartleby,Nippers,adversarial,enemies,directed,moderate,high
+Ginger Nut,Ginger Nut's Father,family,parent_child,mutual,strong,high
+Dun,Nippers,adversarial,legal_opponents,directed,weak,medium
+Bartleby,Lawyer Tenant,adversarial,institutional_pressure,directed,moderate,high
+Landlord,Lawyer Tenant,professional,client_service,mutual,moderate,high
+Bartleby,Landlord,adversarial,institutional_pressure,directed,strong,high
+Landlord,Narrator,adversarial,institutional_pressure,directed,moderate,high
+Grub Man,Mrs. Cutlets,family,spouse,mutual,strong,high

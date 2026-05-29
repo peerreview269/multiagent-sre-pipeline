@@ -1,0 +1,32 @@
+source,target,tie_type
+Bartleby,Landlord,Adversarial
+Bartleby,Narrator,Adversarial
+Landlord,Narrator,Adversarial
+Lawyer Tenant,Narrator,Adversarial
+Narrator,Turkey,Adversarial
+Bartleby,Nippers,Adversarial
+Dun,Nippers,Adversarial
+Bartleby,Lawyer Tenant,Adversarial
+Bartleby,Turkey,Adversarial
+Ginger Nut,Ginger Nut's Father,Family
+Bartleby,Ginger Nut,Professional
+Bartleby,Grub Man,Professional
+Bartleby,Lawyer,Professional
+Bartleby,Nippers,Professional
+Bartleby,Turkey,Professional
+Grub Man,Narrator,Professional
+Grub Man,Turnkeys,Professional
+Bartleby,Landlord,Professional
+Landlord,Lawyer Tenant,Professional
+Bartleby,Narrator,Professional
+Cleaning Woman,Narrator,Professional
+Ginger Nut,Narrator,Professional
+John Jacob Astor,Narrator,Professional
+Landlord,Narrator,Professional
+Narrator,Nippers,Professional
+Narrator,Turkey,Professional
+Narrator,Turnkeys,Professional
+Ginger Nut,Nippers,Professional
+Nippers,Turkey,Professional
+Ginger Nut,Turkey,Professional
+Bartleby,Turnkeys,Professional

@@ -1,0 +1,59 @@
+source,target,tie_type,sub_type,confidence,rationale
+Bartleby,Narrator,professional,employer_employee,high,The narrator hires Bartleby as a scrivener and pays him for copying.
+Bartleby,Narrator,friendship,acquaintance,medium,The narrator repeatedly calls Bartleby his friend and tries to aid him.
+Bartleby,Narrator,adversarial,institutional_pressure,high,"The narrator dismisses Bartleby, moves offices, and tries to make him leave."
+Narrator,Turkey,professional,employer_employee,high,Turkey is one of the narrator’s copyists and performs legal copying work.
+Narrator,Turkey,adversarial,institutional_pressure,medium,The narrator remonstrates with Turkey and tries to reduce his afternoon labor.
+Narrator,Nippers,professional,employer_employee,high,Nippers is the narrator’s second copyist and writes legal documents for him.
+Narrator,Nippers,adversarial,institutional_pressure,low,Nippers causes the narrator annoyance through irritability and professional overreach.
+Ginger Nut,Narrator,professional,employer_employee,high,"Ginger Nut works as office boy, errand runner, cleaner, and student at law."
+Ginger Nut,Ginger Nut's Father,family,parent_child,high,Ginger Nut’s father sends him to the office to improve his prospects.
+Ginger Nut's Father,Narrator,professional,client_service,medium,Ginger Nut’s father arranges his son’s placement in the narrator’s office.
+Nippers,Turkey,professional,colleagues,high,Turkey and Nippers work together as copyists in the narrator’s office.
+Nippers,Turkey,friendship,acquaintance,medium,They mutually confer nicknames and dine together on at least one occasion.
+Ginger Nut,Turkey,professional,colleagues,high,Ginger Nut serves Turkey by fetching cakes and apples during office work.
+Ginger Nut,Nippers,professional,colleagues,high,Ginger Nut serves Nippers by fetching cakes and apples during office work.
+Bartleby,Turkey,professional,colleagues,high,Bartleby joins Turkey as a fellow copyist in the narrator’s office.
+Bartleby,Turkey,adversarial,rivals,medium,Turkey threatens to black Bartleby’s eyes over his refusals.
+Bartleby,Nippers,professional,colleagues,high,Bartleby and Nippers are both scriveners in the same office.
+Bartleby,Nippers,adversarial,rivals,high,Nippers says he would kick Bartleby out and curses his stubbornness.
+Bartleby,Ginger Nut,professional,client_service,medium,Ginger Nut buys and delivers ginger-nuts to Bartleby for a fee.
+John Jacob Astor,Narrator,professional,client_service,high,The narrator worked professionally for John Jacob Astor and values his opinion.
+Cleaning Woman,Narrator,professional,servant_employer,high,"The woman sweeps, dusts, scrubs the office, and keeps one of its keys."
+Cleaning Woman,Turkey,professional,colleagues,low,Both have office-related keyholding or maintenance roles around the narrator’s chambers.
+Dun,Nippers,professional,client_service,medium,Nippers receives ambiguous visitors whom he calls clients.
+Dun,Nippers,adversarial,institutional_pressure,low,One supposed client appears to be a dun presenting a bill.
+Ginger Nut,Post Office Vendors,professional,client_service,medium,Ginger Nut frequently buys cakes and apples from stalls near the Post Office and Custom House.
+Narrator,Professional Friends,professional,colleagues,high,The narrator’s legal acquaintances visit his chambers and comment on Bartleby.
+Bartleby,Professional Friends,adversarial,social_judgment,medium,Their remarks about Bartleby pressure the narrator to remove him.
+Bartleby,Visiting Attorney,professional,institutional,medium,The attorney seeks information from Bartleby about the narrator’s whereabouts.
+Bartleby,Visiting Attorney,adversarial,institutional_pressure,low,Bartleby refuses to answer the attorney’s professional inquiry.
+Bartleby,Lawyer,professional,institutional,medium,"During a Reference, the lawyer asks Bartleby to fetch papers from his office."
+Bartleby,Lawyer,adversarial,institutional_pressure,medium,"Bartleby declines the lawyer’s request, causing the lawyer to stare and complain."
+Lawyers and Witnesses,Narrator,professional,collaborators,medium,They gather in the narrator’s room during a legal Reference.
+Bartleby,Lawyers and Witnesses,adversarial,social_judgment,low,Their presence makes Bartleby’s idleness a professional embarrassment.
+Lawyer Tenant,Narrator,professional,colleagues,medium,The new lawyer confronts the narrator about Bartleby after occupying his former rooms.
+Bartleby,Lawyer Tenant,professional,employer_employee,low,The new tenant expects Bartleby to copy after taking over the office.
+Bartleby,Lawyer Tenant,adversarial,institutional_pressure,high,The new lawyer turns Bartleby out and demands the narrator remove him.
+Landlord,Narrator,professional,institutional,medium,The landlord holds the narrator responsible as Bartleby’s last known employer.
+Landlord,Narrator,adversarial,institutional_pressure,medium,The landlord pressures the narrator to remove Bartleby at once.
+Bartleby,Landlord,adversarial,institutional_pressure,high,The landlord sends for police and has Bartleby removed as a vagrant.
+Landlord,Lawyer Tenant,professional,institutional,medium,The landlord intervenes after the new lawyer cannot make Bartleby leave.
+Landlord,Other Tenants,professional,institutional,medium,The landlord acts on complaints from tenants disturbed by Bartleby.
+Bartleby,Other Tenants,adversarial,social_judgment,high,The tenants cannot stand Bartleby haunting the stairs and entry.
+Narrator,Other Tenants,adversarial,institutional_pressure,medium,The tenants demand that the narrator take Bartleby away.
+Bartleby,Police Constables,adversarial,legal_opponents,high,Constables remove Bartleby to the Tombs as a vagrant.
+Landlord,Police Constables,professional,collaborators,medium,The police act after the landlord sends for them.
+Police Constables,Tombs Officer,professional,colleagues,low,Both participate in the institutional process that confines Bartleby.
+Bartleby,Tombs Officer,professional,institutional,medium,The officer confirms Bartleby is in the Tombs and permits him limited freedom.
+Narrator,Tombs Officer,professional,institutional,medium,The narrator states his purpose to the Tombs officer and requests an interview.
+Bartleby,Turnkeys,professional,institutional,high,Turnkeys monitor Bartleby in the prison and report where he has gone.
+Narrator,Turnkeys,professional,institutional,medium,Turnkeys answer the narrator’s questions and direct him to Bartleby.
+Bartleby,Grub Man,professional,client_service,high,The grub-man is hired to provide Bartleby better food in prison.
+Grub Man,Narrator,professional,client_service,high,The narrator pays the grub-man to give Bartleby particular attention.
+Grub Man,Turnkeys,professional,colleagues,medium,The turnkey confirms the grub-man’s role in providing food to prisoners.
+Grub Man,Monroe Edwards,professional,client_service,low,The grub-man recalls Monroe Edwards from prison and asks whether the narrator knew him.
+Bartleby,Dead Letter Office,professional,employer_employee,medium,Rumor says Bartleby had been a subordinate clerk in the Dead Letter Office.
+Bartleby,Dead Letter Office,adversarial,institutional_pressure,low,The narrator imagines dead-letter work worsening Bartleby’s hopelessness.
+Bartleby,The Administration,adversarial,institutional_pressure,medium,A change in administration reportedly removed Bartleby from his clerkship.
+Dead Letter Office,The Administration,professional,institutional,medium,The administration controls appointments or removals at the Dead Letter Office.
