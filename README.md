@@ -33,7 +33,19 @@ specified by the researcher.
 - `comparison/` — evaluation scripts (network_comparison_unified.py)
 - `data/` — extracted networks and human reference networks
 
-## Adapting to your own texts and typology
+## Configuring your own typology
 
-Edit the prompts.py to create rules for node types and network types
+The five tie types — family, friendship, romantic, professional, and
+adversarial — are defined in `prompts.py` under `TIE_SYSTEM`. To use
+your own typology, edit the definitions, sub_types, notes, and priority
+rules in that constant. The Roster Agent's definition of a "socially
+meaningful character" is in `ROSTER_SYSTEM` and can be similarly
+adapted.
+
+## Reproducibility
+
+Model: Gemma 4 31B (Q5_K_M quantization)
+Inference: temperature 0.7 for structured calls, 1.0 for reasoning calls
+Context: 16,384 tokens
+Chunk size: 700 tokens with 100-token overlap
 
