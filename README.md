@@ -45,7 +45,6 @@ Start the model server before running the pipeline:
 │   └── network_comparison_unified.py   Evaluation script for paper replication
 │
 ├── data/
-│   ├── README.md                     Citations for the ten stories
 │   ├── edges_human_*.csv             Reference (human-adjudicated) networks
 │   ├── nodes_human_*.csv
 │   ├── edges_ai_*.csv                Multi-agent pipeline extractions
