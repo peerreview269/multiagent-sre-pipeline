@@ -1,0 +1,1764 @@
+{
+  "characters": [
+    {
+      "id": "the_narrator",
+      "name": "Unnamed Narrator",
+      "aliases": [],
+      "role": "A lawyer and former Master in Chancery who employs Bartleby.",
+      "type": "PERSON"
+    },
+    {
+      "id": "bartleby",
+      "name": "Bartleby",
+      "aliases": [],
+      "role": "A pale, sedentary scrivener who eventually refuses to perform any work.",
+      "type": "PERSON"
+    },
+    {
+      "id": "john_jacob_astor",
+      "name": "John Jacob Astor",
+      "aliases": [],
+      "role": "A wealthy man and former client of the narrator.",
+      "type": "PERSON"
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "aliases": [],
+      "role": "An elderly English copyist who becomes rash and erratic in the afternoons.",
+      "type": "PERSON"
+    },
+    {
+      "id": "nippers",
+      "name": "Nippers",
+      "aliases": [],
+      "role": "A young, ambitious copyist suffering from indigestion and irritability.",
+      "type": "PERSON"
+    },
+    {
+      "id": "ginger_nut",
+      "name": "Ginger Nut",
+      "aliases": [],
+      "role": "A twelve-year-old office boy and errand runner.",
+      "type": "PERSON"
+    },
+    {
+      "id": "ginger_nuts_father",
+      "name": "Ginger Nut's Father",
+      "aliases": [],
+      "role": "A carman who sent his son to the office as a student at law.",
+      "type": "PERSON"
+    },
+    {
+      "id": "the_dun",
+      "name": "The Dun",
+      "aliases": [],
+      "role": "A man posing as Nippers' client who is actually a debt collector.",
+      "type": "PERSON"
+    },
+    {
+      "id": "the_cleaning_woman",
+      "name": "The Cleaning Woman",
+      "aliases": [],
+      "role": "A woman residing in the attic who cleans the narrator's chambers.",
+      "type": "PERSON"
+    },
+    {
+      "id": "the_lawyer_tenant",
+      "name": "The Lawyer Tenant",
+      "aliases": [
+        "Mr. B—"
+      ],
+      "role": "A tenant at No.—Wall-street who is distressed by Bartleby's presence.",
+      "type": "PERSON"
+    },
+    {
+      "id": "the_landlord",
+      "name": "The Landlord",
+      "aliases": [],
+      "role": "The portly owner of the building at No.—Wall-street.",
+      "type": "PERSON"
+    },
+    {
+      "id": "the_grub_man",
+      "name": "Mr. Cutlets",
+      "aliases": [
+        "the grub-man"
+      ],
+      "role": "A prison food provider at the Tombs.",
+      "type": "PERSON"
+    },
+    {
+      "id": "mrs_cutlets",
+      "name": "Mrs. Cutlets",
+      "aliases": [],
+      "role": "The wife of the grub-man.",
+      "type": "PERSON"
+    },
+    {
+      "id": "monroe_edwards",
+      "name": "Monroe Edwards",
+      "aliases": [],
+      "role": "A known forger mentioned by the grub-man.",
+      "type": "PERSON"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ginger_nuts_father",
+      "target": "ginger_nut",
+      "tie_type": "family",
+      "sub_type": "parent_child",
+      "direction": "mutual",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "Ginger Nut, the third on my list, was a lad some twelve years old. His father was a carman, ambitious of seeing his son on the bench instead of a cart, before he died. So he sent him to my office as student at law",
+      "evidence_spans": [
+        {
+          "chunk_index": 3,
+          "text_snippet": "Ginger Nut, the third on my list, was a lad some twelve years old. His father was a carman, ambitious of seeing his son on the bench instead of a cart, before he died. So he sent him to my office as student at law",
+          "reason": "Explicitly identifies the character as Ginger Nut's father and refers to Ginger Nut as his son."
+        }
+      ],
+      "chunk_indexes": [
+        3
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_grub_man",
+      "target": "mrs_cutlets",
+      "tie_type": "family",
+      "sub_type": "spouse",
+      "direction": "mutual",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "May Mrs. Cutlets and I have the pleasure of your company to dinner, sir, in Mrs. Cutlets’ private room?",
+      "evidence_spans": [
+        {
+          "chunk_index": 22,
+          "text_snippet": "May Mrs. Cutlets and I have the pleasure of your company to dinner, sir, in Mrs. Cutlets’ private room?",
+          "reason": "The grub-man invites the narrator to dinner with Mrs. Cutlets, and the provided character list explicitly defines her as the wife of the grub-man."
+        }
+      ],
+      "chunk_indexes": [
+        22
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "bartleby",
+      "tie_type": "friendship",
+      "sub_type": "close_friend",
+      "direction": "directed",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "In Chunk 22, when the grub-man asks 'Is that your friend?', the narrator responds 'Yes.' Additionally, in Chunk 7, the narrator reflects on his desire 'To befriend Bartleby; to humor him in his strange willfulness'.",
+      "evidence_spans": [
+        {
+          "chunk_index": 7,
+          "text_snippet": "To befriend Bartleby; to humor him in his strange willfulness, will cost me little or nothing",
+          "reason": "Narrator expresses an explicit intention to establish a friendly bond."
+        },
+        {
+          "chunk_index": 22,
+          "text_snippet": "\"Is that your friend?\" \"Yes.\"",
+          "reason": "Narrator explicitly identifies Bartleby as his friend to a third party."
+        }
+      ],
+      "chunk_indexes": [
+        7,
+        22
+      ],
+      "temporal_note": "The narrator's feeling of friendship is primarily driven by pity and a desire for self-approval, and is not reciprocated by Bartleby."
+    },
+    {
+      "source": "turkey",
+      "target": "nippers",
+      "tie_type": "friendship",
+      "sub_type": "acquaintance",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "Nipper and I dined together to-day.",
+      "evidence_spans": [
+        {
+          "chunk_index": 8,
+          "text_snippet": "Nipper and I dined together to-day.",
+          "reason": "Explicit mention of sharing a meal outside of work duties indicates a social relationship beyond professional requirements."
+        }
+      ],
+      "chunk_indexes": [
+        8
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "john_jacob_astor",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "I was not unemployed in my profession by the late John Jacob Astor",
+      "evidence_spans": [
+        {
+          "chunk_index": 0,
+          "text_snippet": "I was not unemployed in my profession by the late John Jacob Astor",
+          "reason": "Direct statement of professional employment/client relationship."
+        }
+      ],
+      "chunk_indexes": [
+        0
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "turkey",
+      "tie_type": "professional",
+      "sub_type": "employer_employee",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "The narrator employs Turkey as a copyist in his chambers, valuing his morning services and referring to him as his 'right-hand man'.",
+      "evidence_spans": [
+        {
+          "chunk_index": 2,
+          "text_snippet": "valuing his morning services as I did... he need not come to my chambers after twelve o’clock",
+          "reason": "Establishes employment in the narrator's chambers."
+        },
+        {
+          "chunk_index": 2,
+          "text_snippet": "“With submission, sir,” said Turkey on this occasion, “I consider myself your right-hand man.”",
+          "reason": "Turkey acknowledges his professional role relative to the narrator."
+        }
+      ],
+      "chunk_indexes": [
+        2
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "nippers",
+      "tie_type": "professional",
+      "sub_type": "employer_employee",
+      "direction": "mutual",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "At the period just preceding the advent of Bartleby, I had two persons as copyists in my employment... second, Nippers",
+      "evidence_spans": [
+        {
+          "chunk_index": 1,
+          "text_snippet": "I had two persons as copyists in my employment... second, Nippers",
+          "reason": "Explicit statement of employment."
+        }
+      ],
+      "chunk_indexes": [
+        1
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "ginger_nut",
+      "tie_type": "professional",
+      "sub_type": "employer_employee",
+      "direction": "mutual",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "I had... a promising lad as an office-boy... Ginger Nut... sent him to my office as student at law, errand boy, and cleaner and sweeper",
+      "evidence_spans": [
+        {
+          "chunk_index": 1,
+          "text_snippet": "a promising lad as an office-boy... Ginger Nut",
+          "reason": "Identifies Ginger Nut as the office boy."
+        },
+        {
+          "chunk_index": 3,
+          "text_snippet": "sent him to my office as student at law, errand boy, and cleaner and sweeper",
+          "reason": "Explicit description of his professional roles."
+        }
+      ],
+      "chunk_indexes": [
+        1,
+        3
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "bartleby",
+      "tie_type": "professional",
+      "sub_type": "employer_employee",
+      "direction": "mutual",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "Was there any other thing in which I could procure myself to be ignominiously repulsed by this lean, penniless wight?—my hired clerk? ... he copied for me at the usual rate of four cents a folio",
+      "evidence_spans": [
+        {
+          "chunk_index": 8,
+          "text_snippet": "my hired clerk",
+          "reason": "Explicitly identifies Bartleby as the narrator's employee."
+        },
+        {
+          "chunk_index": 8,
+          "text_snippet": "he copied for me at the usual rate of four cents a folio",
+          "reason": "Establishes the contractual payment arrangement for work."
+        }
+      ],
+      "chunk_indexes": [
+        8
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "turkey",
+      "target": "nippers",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "The narrator turns to both 'Turkey and Nippers' in his chambers to discuss Bartleby's performance.",
+      "evidence_spans": [
+        {
+          "chunk_index": 8,
+          "text_snippet": "turning upon Turkey and Nippers, exclaimed in an excited manner",
+          "reason": "They are grouped together as the staff of the office."
+        }
+      ],
+      "chunk_indexes": [
+        8
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "turkey",
+      "target": "ginger_nut",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "Not the least among the employments of Ginger Nut... was his duty as cake and apple purveyor for Turkey and Nippers",
+      "evidence_spans": [
+        {
+          "chunk_index": 4,
+          "text_snippet": "his duty as cake and apple purveyor for Turkey and Nippers",
+          "reason": "Ginger Nut performs professional duties for Turkey as part of their shared workplace."
+        }
+      ],
+      "chunk_indexes": [
+        4
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "nippers",
+      "target": "ginger_nut",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "Not the least among the employments of Ginger Nut... was his duty as cake and apple purveyor for Turkey and Nippers",
+      "evidence_spans": [
+        {
+          "chunk_index": 4,
+          "text_snippet": "his duty as cake and apple purveyor for Turkey and Nippers",
+          "reason": "Ginger Nut performs professional duties for Nippers as part of their shared workplace."
+        }
+      ],
+      "chunk_indexes": [
+        4
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "bartleby",
+      "target": "turkey",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "glad to have among my corps of copyists a man of so singularly sedaate an aspect, which I thought might operate beneficially upon the flighty temper of Turkey",
+      "evidence_spans": [
+        {
+          "chunk_index": 4,
+          "text_snippet": "glad to have among my corps of copyists... operate beneficially upon the flighty temper of Turkey",
+          "reason": "Bartleby is hired into the same 'corps of copyists' as Turkey."
+        }
+      ],
+      "chunk_indexes": [
+        4
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "bartleby",
+      "target": "nippers",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "glad to have among my corps of copyists a man of so singularly sedaate an aspect, which I thought might operate beneficially upon... the fiery one of Nippers",
+      "evidence_spans": [
+        {
+          "chunk_index": 4,
+          "text_snippet": "glad to have among my corps of copyists... operate beneficially upon... the fiery one of Nippers",
+          "reason": "Bartleby is hired into the same 'corps of copyists' as Nippers."
+        }
+      ],
+      "chunk_indexes": [
+        4
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "bartleby",
+      "target": "ginger_nut",
+      "tie_type": "professional",
+      "sub_type": "colleagues",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "engaged him, glad to have among my corps of copyists",
+      "evidence_spans": [
+        {
+          "chunk_index": 4,
+          "text_snippet": "I engaged him, glad to have among my corps of copyists a man of so singularly sedaate an aspect",
+          "reason": "Both are employees of the narrator."
+        }
+      ],
+      "chunk_indexes": [
+        4
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "nippers",
+      "target": "the_dun",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "one individual who called upon him at my chambers, and who, with a grand air, he insisted was his client, was no other than a dun",
+      "evidence_spans": [
+        {
+          "chunk_index": 2,
+          "text_snippet": "one individual who called upon him at my chambers, and who, with a grand air, he insisted was his client, was no other than a dun",
+          "reason": "Nippers frames the relationship as client-service, regardless of the Narrator's suspicions of fraud."
+        }
+      ],
+      "chunk_indexes": [
+        2
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "nippers",
+      "target": "the_dun",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "directed",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "Nippers insists that the man (who is actually a debt collector) is his client.",
+      "evidence_spans": [
+        {
+          "chunk_index": 3,
+          "text_snippet": "one individual who called upon him at my chambers, and who, with a grand air, he insisted was his client, was no other than a dun",
+          "reason": "Establishes a perceived client-service relationship."
+        }
+      ],
+      "chunk_indexes": [
+        3
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "the_cleaning_woman",
+      "tie_type": "professional",
+      "sub_type": "servant_employer",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "One was kept by a woman residing in the attic, which person weekly scrubbed and daily swept and dusted my apartments",
+      "evidence_spans": [
+        {
+          "chunk_index": 9,
+          "text_snippet": "One was kept by a woman residing in the attic, which person weekly scrubbed and daily swept and dusted my apartments.",
+          "reason": "The woman provides cleaning services for the narrator's office."
+        }
+      ],
+      "chunk_indexes": [
+        9
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "the_landlord",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "whom I knew to be the landlord of No.—Wall-street",
+      "evidence_spans": [
+        {
+          "chunk_index": 20,
+          "text_snippet": "whom I knew to be the landlord of No.—Wall-street",
+          "reason": "Establishes a tenant-landlord relationship as the narrator's office was located in the building."
+        }
+      ],
+      "chunk_indexes": [
+        20
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "the_grub_man",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "I want you to give particular attention to my friend there; let him have the best dinner you can get. And you must be as polite to him as possible. ... slipping some silver into the grub-man’s hands",
+      "evidence_spans": [
+        {
+          "chunk_index": 22,
+          "text_snippet": "slipping some silver into the grub-man’s hands (for so they called him). “I want you to give particular attention to my friend there; let him have the best dinner you can get.",
+          "reason": "The narrator hires the grub-man to provide food for Bartlebby."
+        }
+      ],
+      "chunk_indexes": [
+        22
+      ],
+      "temporal_note": "Temporary interaction during narrator's visit to the Tombs."
+    },
+    {
+      "source": "bartleby",
+      "target": "the_grub_man",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "Such gentlemen as have friends here, hire me to provide them with something good to eat",
+      "evidence_spans": [
+        {
+          "chunk_index": 22,
+          "text_snippet": "Such gentlemen as have friends here, hire me to provide them with something good to eat",
+          "reason": "The grub-man is hired to provide food to BartlebY."
+        }
+      ],
+      "chunk_indexes": [
+        22
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "the_lawyer_tenant",
+      "tie_type": "professional",
+      "sub_type": "institutional",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "medium",
+      "evidence": "These gentlemen, my tenants",
+      "evidence_spans": [
+        {
+          "chunk_index": 19,
+          "text_snippet": "These gentlemen, my tenants, cannot stand it any longer; Mr. B— pointing to the lawyer",
+          "reason": "Both are tenants of the same landlord in the same professional building."
+        }
+      ],
+      "chunk_indexes": [
+        19
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "ginger_nuts_father",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "medium",
+      "evidence": "His father was a carman... So he sent him to my office as student at law",
+      "evidence_spans": [
+        {
+          "chunk_index": 3,
+          "text_snippet": "His father was a carman, ambitious of seeing his son on the bench instead of a cart, before he died. So he sent him to my office as student at law, errand boy, and cleaner and sweeper, at the rate of one dollar a week.",
+          "reason": "The father entered into a professional arrangement with the narrator to train/employ his son."
+        }
+      ],
+      "chunk_indexes": [
+        3
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_narrator",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "institutional_pressure",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "The narrator describes Bartleby as an 'intolerable incubus' and a 'millstone' and feels 'nervous resentment' due to Bartleby's passive resistance and refusal to work or leave the office.",
+      "evidence_spans": [
+        {
+          "chunk_index": 7,
+          "text_snippet": "Nothing so aggravates an earnest person as a passive resistance.",
+          "reason": "Establishes the adversarial nature of Bartleby's behavior towards the narrator."
+        },
+        {
+          "chunk_index": 14,
+          "text_snippet": "In plain fact, he had now become a millstone to me, not only useless as a necklace, but afflictive to bear.",
+          "reason": "Describes the narrator's perception of Bartleby as a burden/adversary."
+        },
+        {
+          "chunk_index": 18,
+          "text_snippet": "I resolved to gather all my faculties together, and for ever rid me of this intolerable incubus.",
+          "reason": "Shows the narrator's active goal to remove Bartleby."
+        }
+      ],
+      "chunk_indexes": [
+        7,
+        14,
+        18
+      ],
+      "temporal_note": "The relationship evolves from curiosity and pity to irritation and a desire for removal."
+    },
+    {
+      "source": "nippers",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "enemies",
+      "direction": "directed",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "Nippers expresses a desire to 'kick him out of the office' and directs 'hissing maledictions' toward him.",
+      "evidence_spans": [
+        {
+          "chunk_index": 6,
+          "text_snippet": "\"I think I should kick him out of the office.\"",
+          "reason": "Direct statement of hostility."
+        },
+        {
+          "chunk_index": 7,
+          "text_snippet": "Nippers, twitching in his chair with a dyspeptic nervousness, ground out between his set teeth occasional hissing maledictions against the stubborn oaf behind the screen.",
+          "reason": "Describes active verbal hostility."
+        }
+      ],
+      "chunk_indexes": [
+        6,
+        7
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "turkey",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "enemies",
+      "direction": "directed",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "Turkey threatens physical violence, stating he wants to 'black his eyes for him.'",
+      "evidence_spans": [
+        {
+          "chunk_index": 8,
+          "text_snippet": "\"Think of it?\" roared Turkey; \"I think I’ll just step behind his screen, and black his eyes for him!\"",
+          "reason": "Direct threat of physical harm."
+        }
+      ],
+      "chunk_indexes": [
+        8
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_landlord",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "institutional_pressure",
+      "direction": "directed",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "The landlord views Bartleby as a nuisance that drives away clients and eventually has him arrested and removed to the Tombs as a vagrant.",
+      "evidence_spans": [
+        {
+          "chunk_index": 19,
+          "text_snippet": "\"You must take him away, sir, at once,\" cried a portly person among them... the landlord of No.—Wall-street.",
+          "reason": "Demand for removal."
+        },
+        {
+          "chunk_index": 21,
+          "text_snippet": "It informed me that the writer had sent to the police, and had Bartleby removed to the Tombs as a vagrant.",
+          "reason": "The landlord takes legal action to forcibly remove the character."
+        }
+      ],
+      "chunk_indexes": [
+        19,
+        21
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_landlord",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "antagonist_victim",
+      "direction": "directed",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "the writer had sent to the police, and had Bartleby removed to the Tombs as a vagrant.",
+      "evidence_spans": [
+        {
+          "chunk_index": 21,
+          "text_snippet": "It informed me that the writer had sent to the police, and had Bartleby removed to the Tombs as a vagrant.",
+          "reason": "The landlord uses legal authority to have Bartleby forcibly removed and imprisoned."
+        }
+      ],
+      "chunk_indexes": [
+        21
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_lawyer_tenant",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "institutional_pressure",
+      "direction": "directed",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "The lawyer tenant (Mr. B—) is distressed by Bartleby's presence and eventually turns him out of his room.",
+      "evidence_spans": [
+        {
+          "chunk_index": 19,
+          "text_snippet": "\"Mr. B—\" pointing to the lawyer, \"has turned him out of his room\"",
+          "reason": "Action of eviction."
+        }
+      ],
+      "chunk_indexes": [
+        19
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_lawyer_tenant",
+      "target": "bartleby",
+      "tie_type": "adversarial",
+      "sub_type": "antagonist_victim",
+      "direction": "directed",
+      "strength": "strong",
+      "confidence": "high",
+      "evidence": "Mr. B—” pointing to the lawyer, “has turned him out of his room",
+      "evidence_spans": [
+        {
+          "chunk_index": 20,
+          "text_snippet": "Mr. B—” pointing to the lawyer, “has turned him out of his room",
+          "reason": "The lawyer tenant explicitly evicted Bartleby."
+        }
+      ],
+      "chunk_indexes": [
+        20
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_dun",
+      "target": "nippers",
+      "tie_type": "adversarial",
+      "sub_type": "legal_opponents",
+      "direction": "directed",
+      "strength": "weak",
+      "confidence": "medium",
+      "evidence": "The Dun is a debt collector who poses as a client to target Nippers.",
+      "evidence_spans": [
+        {
+          "chunk_index": 2,
+          "text_snippet": "I have good reason to believe, however, that one individual who called upon him... was no other than a dun",
+          "reason": "The identity of the character as a debt collector indicates a structurally antagonistic relationship."
+        }
+      ],
+      "chunk_indexes": [
+        2
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_grub_man",
+      "target": "bartleby",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "high",
+      "evidence": "Bartleby, this is Mr. Cutlets; you will find him very useful to you. ... Such gentlemen as have friends here, hire me to provide them with something good to eat.",
+      "evidence_spans": [
+        {
+          "chunk_index": 22,
+          "text_snippet": "“I am the grub-man. Such gentlemen as have friends here, hire me to provide them with something good to eat.”",
+          "reason": "The grub-man's role is to provide food services to prisoners who have external funding."
+        },
+        {
+          "chunk_index": 22,
+          "text_snippet": "“Bartleby, this is Mr. Cutlets; you will find him very useful to you.”",
+          "reason": "The grub-man is introduced as a service provider for Bartlebby."
+        }
+      ],
+      "chunk_indexes": [
+        22
+      ],
+      "temporal_note": "Temporary professional relationship established by the narrator."
+    },
+    {
+      "source": "ginger_nuts_father",
+      "target": "the_narrator",
+      "tie_type": "professional",
+      "sub_type": "institutional",
+      "direction": "mutual",
+      "strength": "weak",
+      "confidence": "medium",
+      "evidence": "Ginger Nut's father arranged for his son to be sent to the narrator's office as a student at law and employee.",
+      "evidence_spans": [
+        {
+          "chunk_index": 3,
+          "text_snippet": "His father was a carman... So he sent him to my office as student at law, errand boy, and cleaner and sweeper, at the rate of one dollar a week.",
+          "reason": "Indicates a contractual/institutional arrangement between the father and the employer."
+        }
+      ],
+      "chunk_indexes": [
+        3
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_lawyer_tenant",
+      "target": "the_landlord",
+      "tie_type": "professional",
+      "sub_type": "client_service",
+      "direction": "mutual",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "These gentlemen, my tenants, cannot stand it any longer; Mr. B— pointing to the lawyer",
+      "evidence_spans": [
+        {
+          "chunk_index": 20,
+          "text_snippet": "These gentlemen, my tenants, cannot stand it any longer; Mr. B— pointing to the lawyer",
+          "reason": "Explicitly identifies the lawyer tenant as one of the landlord's tenants."
+        }
+      ],
+      "chunk_indexes": [
+        20
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "the_landlord",
+      "target": "the_narrator",
+      "tie_type": "adversarial",
+      "sub_type": "institutional_pressure",
+      "direction": "directed",
+      "strength": "moderate",
+      "confidence": "high",
+      "evidence": "the landlord... advancing upon me... 'something you must do, and that without delay.' ... So fearful was I of being again hunted out by the incensed landlord",
+      "evidence_spans": [
+        {
+          "chunk_index": 20,
+          "text_snippet": "cried a portly person among them, advancing upon me, and whom I knew to be the landlord of No.—Wall-street. “These gentlemen, my tenants, cannot stand it any longer... something you must do, and that without delay.”",
+          "reason": "The landlord aggressively confronts the narrator, demanding he resolve the Bartleby situation."
+        },
+        {
+          "chunk_index": 21,
+          "text_snippet": "So fearful was I of being again hunted out by the incensed landlord and his exasperated tenants",
+          "reason": "The narrator describes the landlord as 'incensed' and describes himself as being 'hunted out'."
+        }
+      ],
+      "chunk_indexes": [
+        20,
+        21
+      ],
+      "temporal_note": ""
+    },
+    {
+      "source": "bartleby",
+      "target": "the_narrator",
+      "tie_type": "adversarial",
+      "sub_type": "social_judgment",
+      "direction": "directed",
+      "strength": "moderate",
+      "confidence": "medium",
+      "evidence": "“Bartleby!” I know you,” he said... “and I want nothing to say to you.”",
+      "evidence_spans": [
+        {
+          "chunk_index": 21,
+          "text_snippet": "“Bartleby!” I know you,” he said, without looking round,—“and I want nothing to say to you.”",
+          "reason": "Bartleby explicitly rejects the narrator and expresses a desire for no communication, framing the narrator as unwelcome."
+        }
+      ],
+      "chunk_indexes": [
+        21
+      ],
+      "temporal_note": "Occurs after Bartleby is imprisoned."
+    }
+  ],
+  "isolates": [
+    {
+      "id": "monroe_edwards",
+      "name": "Monroe Edwards",
+      "aliases": [],
+      "role": "A known forger mentioned by the grub-man.",
+      "type": "PERSON"
+    }
+  ],
+  "summary": {
+    "total_characters": 14,
+    "total_relationships": 36,
+    "tie_breakdown": {
+      "family": 2,
+      "friendship": 2,
+      "professional": 22,
+      "adversarial": 10
+    },
+    "isolate_count": 1,
+    "network_hub": "Unnamed Narrator",
+    "critique_rounds": 6,
+    "entity_resolution_actions": 0,
+    "conflict_groups_reviewed": 3,
+    "conflict_review_batches": 0,
+    "tie_type_chunk_coverage": {
+      "family": [
+        3,
+        22
+      ],
+      "friendship": [
+        7,
+        8,
+        22
+      ],
+      "romantic": [],
+      "professional": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        19,
+        20,
+        22
+      ],
+      "adversarial": [
+        2,
+        6,
+        7,
+        8,
+        14,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  },
+  "analyst_notes": [
+    "No duplicate characters or overlapping entities were found in the provided roster.",
+    "Monroe Edwards is listed as a character but has no associated ties in the relationship summary.",
+    "The distinction between professional colleagues and actual social friends among the clerks is blurred in the current extraction.",
+    "The graph captures the primary office hierarchy well.",
+    "The adversarial nature of Bartleby's relationships is well-documented across multiple chunks.",
+    "The contradiction regarding The Dun is the most significant logical error in the current extraction.",
+    "The graph captures the core office dynamics well but struggles with the nuance of the Narrator's psychological projections (e.g., labeling a pity-based relationship as 'close friendship').",
+    "Some minor professional ties (Landlord/Tenant) are missing despite the characters being in the roster.",
+    "The relationship between the Narrator and Bartleby is complex; mapping it as 'close_friend' is a categorical error based on the Narrator's own admission of self-serving motives.",
+    "The social network lacks the inherent hierarchy of the landlord-tenant dynamic which drives the plot in the final act.",
+    "The primary professional relationship is landlord-tenant (institutional). The request for an interview suggests a situational interaction rather than a peer colleague relationship.",
+    "The relationship between Turkey and Nippers is more than just 'acquaintances'; they are described as dining together (chunk 8), suggesting a closer colleague bond.",
+    "The narrator's internal conflict regarding Bartleby fluctuates between pity and resentment; the 'close_friend' label is misleading.",
+    "The relationship is primarily defined by the landlord-tenant dynamic (institutional); the request for an interview is a transactional interaction within that context, not evidence of being professional colleagues.",
+    "The relationship evolves from institutional pressure (nuisance to business) to a direct antagonist-victim dynamic resulting in legal removal.",
+    "The lawyer exerts institutional pressure regarding the use of the office space, which culminates in the active expulsion of Bartleby.",
+    "The primary professional tie is the landlord-tenant relationship (institutional). The request for an interview does not establish a colleague relationship.",
+    "The landlord uses institutional power (police/Tombs) to resolve the conflict, fitting both sub-types.",
+    "The relationship evolves from professional distress to an active eviction, supporting both institutional pressure and a victim-antagonist dynamic.",
+    "The relationship is primarily defined by the landlord-tenant institutional structure; the request for an interview is a situational interaction rather than a colleague relationship.",
+    "The conflict spans both institutional removal (police/Tombs) and a personal antagonist-victim dynamic.",
+    "The action of turning Bartleby out of the room constitutes both institutional pressure (eviction) and an antagonist-victim dynamic.",
+    "Resolved professional tie for narrator/lawyer as institutional based on tenant status.",
+    "Preserved dual adversarial sub-types for Bartleby's conflicts as the evidence supports both systemic and personal antagonism."
+  ],
+  "critiques": [
+    {
+      "gaps": [
+        {
+          "source": "the_grub_man",
+          "target": "monroe_edwards",
+          "suspected_tie_type": "professional",
+          "sub_type": "acquaintance",
+          "reason": "Mr. Cutlets discusses Monroe Edwards' death and history as a forger, implying a level of knowledge or professional acquaintance within the prison ecosystem.",
+          "recommended_chunk_indexes": [
+            22
+          ]
+        },
+        {
+          "source": "bartleby",
+          "target": "ginger_nut",
+          "suspected_tie_type": "friendship",
+          "sub_type": "informal_exchange",
+          "reason": "Ginger Nut regularly delivers ginger-nuts to Bartleby in exchange for coins, indicating a specific, recurring social interaction separate from their roles as colleagues.",
+          "recommended_chunk_indexes": [
+            7
+          ]
+        },
+        {
+          "source": "turkey",
+          "target": "nippers",
+          "suspected_tie_type": "friendship",
+          "sub_type": "social_companions",
+          "reason": "Turkey and Nippers are mentioned as having dined together, suggesting a social relationship beyond mere office colleagues.",
+          "recommended_chunk_indexes": [
+            8
+          ]
+        },
+        {
+          "source": "the_landlord",
+          "target": "the_lawyer_tenant",
+          "suspected_tie_type": "professional",
+          "sub_type": "institutional",
+          "reason": "Both are identified as the managing party and a tenant of the same building, collaborating to remove Bartleby.",
+          "recommended_chunk_indexes": [
+            19,
+            20
+          ]
+        }
+      ],
+      "low_confidence_flags": [
+        {
+          "source": "the_narrator",
+          "target": "ginger_nuts_father",
+          "tie_type": "professional",
+          "concern": "Categorized as 'client_service', but the text suggests the father simply placed his son in the office as a student; there is no explicit evidence of a client-lawyer service relationship.",
+          "recommended_chunk_indexes": [
+            3
+          ]
+        }
+      ],
+      "contradictions": [],
+      "overreach_flags": [
+        {
+          "source": "the_narrator",
+          "target": "bartleby",
+          "tie_type": "friendship",
+          "concern": "Labeled 'close_friend'. The narrator explicitly states this is a 'delicious self-approval' and a result of pity, and Bartleby remains distant and unresponsive. This is a unilateral projection, not a mutual close friendship.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [
+        {
+          "tie_type": "social_interactions",
+          "chunk_indexes": [
+            7,
+            8
+          ],
+          "reason": "Determine if the 'ginger-nut' exchanges and the dinner between Turkey and Nippers warrant a shift from 'colleagues' to 'friends' or 'acquaintances'."
+        },
+        {
+          "tie_type": "professional",
+          "chunk_indexes": [
+            22
+          ],
+          "reason": "Clarify the nature of the connection between Mr. Cutlets and Monroe Edwards to avoid leaving Monroe Edwards as an isolated node."
+        }
+      ],
+      "notes": [
+        "Monroe Edwards is listed as a character but has no associated ties in the relationship summary.",
+        "The distinction between professional colleagues and actual social friends among the clerks is blurred in the current extraction."
+      ],
+      "quality_verdict": "needs_work"
+    },
+    {
+      "gaps": [
+        {
+          "source": "turkey",
+          "target": "nippers",
+          "suspected_tie_type": "friendship",
+          "reason": "Chunk 8 explicitly mentions they 'dined together', suggesting a personal relationship beyond professional colleagues or mere acquaintances.",
+          "recommended_chunk_indexes": [
+            8
+          ]
+        }
+      ],
+      "low_confidence_flags": [
+        {
+          "source": "the_narrator",
+          "target": "ginger_nuts_father",
+          "tie_type": "professional",
+          "concern": "The tie is labeled 'client_service', but the text suggests the father simply sent his son to the office as a student at law; it is unclear if a formal legal client relationship existed.",
+          "recommended_chunk_indexes": [
+            3
+          ]
+        }
+      ],
+      "contradictions": [
+        {
+          "description": "Nippers and The Dun are listed as both having a 'client_service' professional tie and an 'adversarial' legal opponent tie. The text clarifies that The Dun was falsely posing as a client.",
+          "recommended_chunk_indexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "overreach_flags": [
+        {
+          "source": "the_narrator",
+          "target": "bartleby",
+          "tie_type": "friendship",
+          "concern": "Labeled as 'close_friend'. While the narrator feels he is befriending Bartleby, the text emphasizes this is a one-sided projection of pity and 'self-approval' rather than a mutual friendship.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [
+        {
+          "tie_type": "professional",
+          "chunk_indexes": [
+            2,
+            3
+          ],
+          "reason": "Verify the actual nature of the interaction between Nippers and The Dun to resolve the contradiction between 'client' and 'debt collector'."
+        },
+        {
+          "tie_type": "friendship",
+          "chunk_indexes": [
+            8
+          ],
+          "reason": "Evaluate the strength of the bond between Turkey and Nippers based on their shared meals."
+        }
+      ],
+      "notes": [
+        "The graph captures the primary office hierarchy well.",
+        "The adversarial nature of Bartleby's relationships is well-documented across multiple chunks.",
+        "The contradiction regarding The Dun is the most significant logical error in the current extraction."
+      ],
+      "quality_verdict": "needs_work"
+    },
+    {
+      "gaps": [
+        {
+          "source": "the_narrator",
+          "target": "the_cleaning_woman",
+          "suspected_tie_type": "professional",
+          "reason": "The narrator mentions a woman residing in the attic who has a key to his door and cleans the apartments; this is a clear employment relationship missing a specific tie beyond the generic list.",
+          "recommended_chunk_indexes": [
+            9
+          ]
+        },
+        {
+          "source": "the_landlord",
+          "target": "the_lawyer_tenant",
+          "suspected_tie_type": "professional",
+          "reason": "The lawyer tenant (Mr. B—) is a tenant of the landlord; this is a standard landlord-tenant professional relationship.",
+          "recommended_chunk_indexes": [
+            19,
+            20
+          ]
+        }
+      ],
+      "low_confidence_flags": [
+        {
+          "source": "the_narrator",
+          "target": "the_lawyer_tenant",
+          "tie_type": "professional",
+          "concern": "The tie is listed as 'institutional' with medium confidence. They are fellow tenants/neighbors in the same building, which is more of a situational proximity than a professional tie.",
+          "recommended_chunk_indexes": [
+            19,
+            20
+          ]
+        },
+        {
+          "source": "the_narrator",
+          "target": "ginger_nuts_father",
+          "tie_type": "professional",
+          "concern": "Listed as 'client_service' and 'institutional'. The text says the father 'sent him to my office', suggesting a parental arrangement rather than a professional service provided by the father to the narrator.",
+          "recommended_chunk_indexes": [
+            3,
+            4
+          ]
+        }
+      ],
+      "contradictions": [
+        {
+          "description": "The relationship between the Narrator and BartlebY is listed as 'close_friend' with high confidence, but the temporal note admits the friendship is one-sided, driven by pity, and not reciprocated. This contradicts the 'close_friend' sub_type.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "overreach_flags": [
+        {
+          "source": "the_narrator",
+          "target": "bartleby",
+          "tie_type": "friendship",
+          "concern": "Categorizing the relationship as 'close_friend' is an overreach. The narrator's internal monologue reveals this is a project of 'self-approval' and pity, while Bartlebby remains indifferent or distant.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [
+        {
+          "tie_type": "professional",
+          "chunk_indexes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "reason": "Re-verify the exact nature of the relationship between the Narrator and Ginger Nut's father to determine if any professional service was actually exchanged."
+        },
+        {
+          "tie_type": "friendship",
+          "chunk_indexes": [
+            7,
+            8,
+            16,
+            17
+          ],
+          "reason": "Re-evaluate the 'friendship' label between the Narrator and Bartlebby; it is largely a delusional or one-sided projection by the Narrator."
+        }
+      ],
+      "notes": [
+        "The graph captures the core office dynamics well but struggles with the nuance of the Narrator's psychological projections (e.g., labeling a pity-based relationship as 'close friendship').",
+        "Some minor professional ties (Landlord/Tenant) are missing despite the characters being in the roster."
+      ],
+      "quality_verdict": "needs_work"
+    },
+    {
+      "gaps": [
+        {
+          "source": "the_landlord",
+          "target": "the_lawyer_tenant",
+          "suspected_tie_type": "professional",
+          "reason": "The lawyer tenant (Mr. B—) is a resident of the building owned by the landlord; a landlord-tenant relationship is implied but not mapped.",
+          "recommended_chunk_indexes": [
+            19,
+            20
+          ]
+        },
+        {
+          "source": "ginger_nut",
+          "target": "turkey",
+          "suspected_tie_type": "professional",
+          "reason": "Beyond being colleagues, Ginger Nut serves as the specific 'cake and apple purveyor' for Turkey, a distinct service role within the office.",
+          "recommended_chunk_indexes": [
+            4
+          ]
+        },
+        {
+          "source": "ginger_nut",
+          "target": "nippers",
+          "suspected_tie_type": "professional",
+          "reason": "Beyond being colleagues, Ginger Nut serves as the specific 'cake and apple purveyor' for Nippers.",
+          "recommended_chunk_indexes": [
+            4
+          ]
+        }
+      ],
+      "low_confidence_flags": [
+        {
+          "source": "the_narrator",
+          "target": "bartleby",
+          "tie_type": "friendship",
+          "concern": "The 'close_friend' sub-type is an overstatement. The narrator admits his 'friendship' is a means of 'delicious self-approval' and is entirely unreciprocated. It is an obsession or a projection of pity, not a mutual friendship.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        },
+        {
+          "source": "the_narrator",
+          "target": "ginger_nuts_father",
+          "tie_type": "professional",
+          "concern": "The 'client_service' sub-type is weak. The father is a carman who placed his son in the office as a student; it is a custodial/educational arrangement rather than a professional client relationship.",
+          "recommended_chunk_indexes": [
+            3
+          ]
+        }
+      ],
+      "contradictions": [
+        {
+          "description": "Bartleby is linked to the grub-man via a 'professional/client_service' tie, but the text explicitly shows Bartleby refusing the grub-man's services ('I prefer not to dine to-day'), and the relationship is managed entirely by the narrator.",
+          "recommended_chunk_indexes": [
+            22
+          ]
+        }
+      ],
+      "overreach_flags": [
+        {
+          "source": "bartleby",
+          "target": "the_grub_man",
+          "tie_type": "professional",
+          "concern": "There is no direct professional agreement between Bartleby and the grub-man; the narrator is the employer/payer of the grub-man.",
+          "recommended_chunk_indexes": [
+            22
+          ]
+        }
+      ],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [
+        {
+          "tie_type": "family",
+          "chunk_indexes": [
+            3,
+            22
+          ],
+          "reason": "Verify if any other kinship ties were mentioned for Bartleby or the clerks, as the narrator explicitly mentions Bartlebys's lack of relatives in later chunks."
+        },
+        {
+          "tie_type": "professional",
+          "chunk_indexes": [
+            20,
+            21
+          ],
+          "reason": "Clarify the relationship between the Narrator, Landlord, and the Lawyer Tenant during the conflict over Bartleby's residency."
+        }
+      ],
+      "notes": [
+        "The relationship between the Narrator and Bartleby is complex; mapping it as 'close_friend' is a categorical error based on the Narrator's own admission of self-serving motives.",
+        "The social network lacks the inherent hierarchy of the landlord-tenant dynamic which drives the plot in the final act."
+      ],
+      "quality_verdict": "needs_work"
+    },
+    {
+      "gaps": [
+        {
+          "source": "the_grub_man",
+          "target": "mrs_cutlets",
+          "suspected_tie_type": "family",
+          "reason": "The roster lists Mrs. Cutlets as the wife of the grub-man (Mr. Cutlets), but the relationship summary only cites chunk 22 for their spouse tie, which is correct, but fails to list them as a cohesive family unit in the broader sense of the roster's requirements.",
+          "recommended_chunk_indexes": [
+            22
+          ]
+        }
+      ],
+      "low_confidence_flags": [
+        {
+          "source": "the_narrator",
+          "target": "the_lawyer_tenant",
+          "tie_type": "professional",
+          "concern": "The tie is listed as 'institutional' with medium confidence. In chunk 19/20, they are fellow tenants/neighbors in a professional building, but the interaction is primarily via the landlord's complaint. The nature of their professional tie is weak.",
+          "recommended_chunk_indexes": [
+            19,
+            20
+          ]
+        }
+      ],
+      "contradictions": [
+        {
+          "description": "The relationship between the narrator and Bartleby is listed as 'friendship/close_friend' in one entry and 'adversarial/institutional_pressure' in another. While the narrator's feelings evolve, 'close_friend' is an overstatement given the one-sided nature and the eventual attempt to evict him.",
+          "recommended_chunk_indexes": [
+            7,
+            14,
+            18,
+            22
+          ]
+        }
+      ],
+      "overreach_flags": [
+        {
+          "source": "the_narrator",
+          "target": "bartleby",
+          "tie_type": "friendship",
+          "concern": "Labeling the tie as 'close_friend' is an overreach. The narrator explicitly states his 'friendship' is a means of 'delicious self-approval' and pity, and it is not reciprocated.",
+          "recommended_chunk_indexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [
+        {
+          "tie_type": "professional",
+          "chunk_indexes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "reason": "Verify if Turkey, Nippers, and Ginger Nut have direct peer-to-peer relationships beyond just being employed by the same man (e.g., Turkey and Nippers dining together in chunk 8)."
+        },
+        {
+          "tie_type": "adversarial",
+          "chunk_indexes": [
+            20,
+            21
+          ],
+          "reason": "Check the relationship between the Landlord and Bartleby; the landlord is the one who eventually has him arrested as a vagrant."
+        }
+      ],
+      "notes": [
+        "The relationship between Turkey and Nippers is more than just 'acquaintances'; they are described as dining together (chunk 8), suggesting a closer colleague bond.",
+        "The narrator's internal conflict regarding Bartleby fluctuates between pity and resentment; the 'close_friend' label is misleading."
+      ],
+      "quality_verdict": "needs_work"
+    },
+    {
+      "gaps": [],
+      "low_confidence_flags": [],
+      "contradictions": [],
+      "overreach_flags": [],
+      "entity_resolution_flags": [],
+      "recommended_rechecks": [],
+      "notes": [],
+      "quality_verdict": "good"
+    }
+  ],
+  "entity_resolution": {
+    "canonical_characters": [
+      {
+        "id": "the_narrator",
+        "name": "Unnamed Narrator",
+        "aliases": [],
+        "role": "A lawyer and former Master in Chancery who employs Bartleby.",
+        "type": "PERSON"
+      },
+      {
+        "id": "bartleby",
+        "name": "Bartleby",
+        "aliases": [],
+        "role": "A pale, sedentary scrivener who eventually refuses to perform any work.",
+        "type": "PERSON"
+      },
+      {
+        "id": "john_jacob_astor",
+        "name": "John Jacob Astor",
+        "aliases": [],
+        "role": "A wealthy man and former client of the narrator.",
+        "type": "PERSON"
+      },
+      {
+        "id": "turkey",
+        "name": "Turkey",
+        "aliases": [],
+        "role": "An elderly English copyist who becomes rash and erratic in the afternoons.",
+        "type": "PERSON"
+      },
+      {
+        "id": "nippers",
+        "name": "Nippers",
+        "aliases": [],
+        "role": "A young, ambitious copyist suffering from indigestion and irritability.",
+        "type": "PERSON"
+      },
+      {
+        "id": "ginger_nut",
+        "name": "Ginger Nut",
+        "aliases": [],
+        "role": "A twelve-year-old office boy and errand runner.",
+        "type": "PERSON"
+      },
+      {
+        "id": "ginger_nuts_father",
+        "name": "Ginger Nut's Father",
+        "aliases": [],
+        "role": "A carman who sent his son to the office as a student at law.",
+        "type": "PERSON"
+      },
+      {
+        "id": "the_dun",
+        "name": "The Dun",
+        "aliases": [],
+        "role": "A man posing as Nippers' client who is actually a debt collector.",
+        "type": "PERSON"
+      },
+      {
+        "id": "the_cleaning_woman",
+        "name": "The Cleaning Woman",
+        "aliases": [],
+        "role": "A woman residing in the attic who cleans the narrator's chambers.",
+        "type": "PERSON"
+      },
+      {
+        "id": "the_lawyer_tenant",
+        "name": "The Lawyer Tenant",
+        "aliases": [
+          "Mr. B—"
+        ],
+        "role": "A tenant at No.—Wall-street who is distressed by Bartleby's presence.",
+        "type": "PERSON"
+      },
+      {
+        "id": "the_landlord",
+        "name": "The Landlord",
+        "aliases": [],
+        "role": "The portly owner of the building at No.—Wall-street.",
+        "type": "PERSON"
+      },
+      {
+        "id": "the_grub_man",
+        "name": "Mr. Cutlets",
+        "aliases": [
+          "the grub-man"
+        ],
+        "role": "A prison food provider at the Tombs.",
+        "type": "PERSON"
+      },
+      {
+        "id": "mrs_cutlets",
+        "name": "Mrs. Cutlets",
+        "aliases": [],
+        "role": "The wife of the grub-man.",
+        "type": "PERSON"
+      },
+      {
+        "id": "monroe_edwards",
+        "name": "Monroe Edwards",
+        "aliases": [],
+        "role": "A known forger mentioned by the grub-man.",
+        "type": "PERSON"
+      }
+    ],
+    "mapping": [],
+    "notes": [
+      "No duplicate characters or overlapping entities were found in the provided roster."
+    ]
+  },
+  "steward_conflict_review": {
+    "decisions": [
+      {
+        "pair": [
+          "the_narrator",
+          "the_lawyer_tenant"
+        ],
+        "tie_type": "professional",
+        "keep_strategy": "best_single",
+        "keep_labels": [
+          {
+            "tie_type": "professional",
+            "sub_type": "institutional"
+          }
+        ],
+        "note": "The relationship is primarily defined by the landlord-tenant institutional structure; the request for an interview is a situational interaction rather than a colleague relationship."
+      },
+      {
+        "pair": [
+          "the_landlord",
+          "bartleby"
+        ],
+        "tie_type": "adversarial",
+        "keep_strategy": "keep_multiple",
+        "keep_labels": [
+          {
+            "tie_type": "adversarial",
+            "sub_type": "institutional_pressure"
+          },
+          {
+            "tie_type": "adversarial",
+            "sub_type": "antagonist_victim"
+          }
+        ],
+        "note": "The conflict spans both institutional removal (police/Tombs) and a personal antagonist-victim dynamic."
+      },
+      {
+        "pair": [
+          "the_lawyer_tenant",
+          "bartleby"
+        ],
+        "tie_type": "adversarial",
+        "keep_strategy": "keep_multiple",
+        "keep_labels": [
+          {
+            "tie_type": "adversarial",
+            "sub_type": "institutional_pressure"
+          },
+          {
+            "tie_type": "adversarial",
+            "sub_type": "antagonist_victim"
+          }
+        ],
+        "note": "The action of turning Bartleby out of the room constitutes both institutional pressure (eviction) and an antagonist-victim dynamic."
+      }
+    ],
+    "notes": [
+      "Resolved professional tie for narrator/lawyer as institutional based on tenant status.",
+      "Preserved dual adversarial sub-types for Bartleby's conflicts as the evidence supports both systemic and personal antagonism."
+    ]
+  },
+  "chunking": {
+    "chunk_count": 24,
+    "chunks": [
+      {
+        "index": 0,
+        "word_start": 0,
+        "word_end": 700,
+        "preview": "Title: Bartleby, the Scrivener: A Story of Wall-Street Author: Herman Melville I am a rather elderly man. The nature of my avocations ..."
+      },
+      {
+        "index": 1,
+        "word_start": 600,
+        "word_end": 1300,
+        "preview": "looked upon the white wall of the interior of a spacious sky-light shaft, penetrating the building from top to bottom. This view ..."
+      },
+      {
+        "index": 2,
+        "word_start": 1200,
+        "word_end": 1900,
+        "preview": "because, though the civilest, nay, the blandest and most reverential of men in the morning, yet in the afternoon he was disposed, ..."
+      },
+      {
+        "index": 3,
+        "word_start": 1800,
+        "word_end": 2500,
+        "preview": "a scrivener’s table altogether. Among the manifestations of his diseased ambition was a fondness he had for receiving visits from certain ambiguous-looking ..."
+      },
+      {
+        "index": 4,
+        "word_start": 2400,
+        "word_end": 3100,
+        "preview": "on about twelve o’clock, I never had to do with their eccentricities at one time. Their fits relieved each other like guards. ..."
+      },
+      {
+        "index": 5,
+        "word_start": 3000,
+        "word_end": 3700,
+        "preview": "no view at all, though it gave some light. Within three feet of the panes was a wall, and the light came ..."
+      },
+      {
+        "index": 6,
+        "word_start": 3600,
+        "word_end": 4300,
+        "preview": "should have violently dismissed him from the premises. But as it was, I should have as soon thought of turning my pale ..."
+      },
+      {
+        "index": 7,
+        "word_start": 4200,
+        "word_end": 4900,
+        "preview": "think that you are.” “Nippers,” said I, “what do _you_ think of it?” “I think I should kick him out of the ..."
+      },
+      {
+        "index": 8,
+        "word_start": 4800,
+        "word_end": 5500,
+        "preview": "driven forth miserably to starve. Yes. Here I can cheaply purchase a delicious self-approval. To befriend Bartleby; to humor him in his ..."
+      },
+      {
+        "index": 9,
+        "word_start": 5400,
+        "word_end": 6100,
+        "preview": "some terrible retribution very close at hand. At the moment I half intended something of the kind. But upon the whole, as ..."
+      },
+      {
+        "index": 10,
+        "word_start": 6000,
+        "word_end": 6700,
+        "preview": "saying quietly that he was sorry, but he was deeply engaged just then, and—preferred not admitting me at present. In a brief ..."
+      },
+      {
+        "index": 11,
+        "word_start": 6600,
+        "word_end": 7300,
+        "preview": "Adam. I remembered the bright silks and sparkling faces I had seen that day, in gala trim, swan-like sailing down the Mississippi ..."
+      },
+      {
+        "index": 12,
+        "word_start": 7200,
+        "word_end": 7900,
+        "preview": "it is perceived that such pity cannot lead to effectual succor, common sense bids the soul rid of it. What I saw ..."
+      },
+      {
+        "index": 13,
+        "word_start": 7800,
+        "word_end": 8500,
+        "preview": "to be a little reasonable,” was his mildly cadaverous reply. Just then the folding-doors opened, and Nippers approached. He seemed suffering from ..."
+      },
+      {
+        "index": 14,
+        "word_start": 8400,
+        "word_end": 9100,
+        "preview": "I thought that, having nothing else earthly to do, Bartleby would surely be less inflexible than usual, and carry these letters to ..."
+      },
+      {
+        "index": 15,
+        "word_start": 9000,
+        "word_end": 9700,
+        "preview": "you well.” But he answered not a word; like the last column of some ruined temple, he remained standing mute and solitary ..."
+      },
+      {
+        "index": 16,
+        "word_start": 9600,
+        "word_end": 10300,
+        "preview": "killed, and remained leaning out there upon the dreamy afternoon, till some one touched him, when he fell. “Not gone!” I murmured ..."
+      },
+      {
+        "index": 17,
+        "word_start": 10200,
+        "word_end": 10900,
+        "preview": "associations—an uncarpeted office, doubtless, of a dusty, haggard sort of appearance;—this it must have been, which greatly helped to enhance the irritable ..."
+      },
+      {
+        "index": 18,
+        "word_start": 10800,
+        "word_end": 11500,
+        "preview": "business with me, and calling at my office and finding no one but the scrivener there, would undertake to obtain some sort ..."
+      },
+      {
+        "index": 19,
+        "word_start": 11400,
+        "word_end": 12100,
+        "preview": "there I have him. Wrong again: for indubitably he _does_ support himself, and that is the only unanswerable proof that any man ..."
+      },
+      {
+        "index": 20,
+        "word_start": 12000,
+        "word_end": 12700,
+        "preview": "at once,” cried a portly person among them, advancing upon me, and whom I knew to be the landlord of No.—Wall-street. “These ..."
+      },
+      {
+        "index": 21,
+        "word_start": 12600,
+        "word_end": 13300,
+        "preview": "before. “Bartleby,” said I, in the kindest tone I could assume under such exciting circumstances, “will you go home with me now—not ..."
+      },
+      {
+        "index": 22,
+        "word_start": 13200,
+        "word_end": 13900,
+        "preview": "there, standing all alone in the quietest of the yards, his face towards a high wall, while all around, from the narrow ..."
+      },
+      {
+        "index": 23,
+        "word_start": 13800,
+        "word_end": 14359,
+        "preview": "loiter in the yards.” So I went in that direction. “Are you looking for the silent man?” said another turnkey passing me. ..."
+      }
+    ]
+  }
+}
