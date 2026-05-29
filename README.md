@@ -26,13 +26,13 @@ specified by the researcher.
 
 ## Quick start
 
-# 1. Run the pipeline
+# Run the pipeline
 python run.py --story Bartleby.txt --output outputs/bartleby_result.json
 
-# 2. Convert the JSON to Excel + UCINET + iGraph + NetworkX
+# Convert the JSON to Excel + UCINET + iGraph + NetworkX
 python network_to_excel.py outputs/bartleby_result.json --outdir reports/bartleby
 
-# 3. (Optional, for paper replication only) Compare against the reference network
+# (Optional, for paper replication only) Compare against the reference network
 cp reports/bartleby/networkx/edges_nx.csv data/edges_ai_bartleby_test.csv
 cp reports/bartleby/networkx/nodes_nx.csv data/nodes_ai_bartleby_test.csv
 python comparison/network_comparison_unified.py --dir data/
