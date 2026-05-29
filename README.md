@@ -17,7 +17,12 @@ specified by the researcher.
 
 - Python 3.10+
 - A locally-served LLM endpoint (we used Gemma 4 31B via llama.cpp)
-- See `requirements.txt`
+- pandas>=2.0
+- numpy>=1.24
+- networkx>=3.0
+- scipy>=1.10
+- requests>=2.28
+- rich>=13.0
 
 ## Quick start
 
