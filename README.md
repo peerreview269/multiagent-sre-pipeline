@@ -35,9 +35,5 @@ specified by the researcher.
 
 ## Adapting to your own texts and typology
 
-[short section on what to edit: tie definitions, roster rules,
-agent prompts, chunk size]
+Edit the prompts.py to create rules for node types and network types
 
-## Reproducibility
-
-[note on the model used, hardware, seeds, etc.]
